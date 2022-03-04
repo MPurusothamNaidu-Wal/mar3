@@ -36,7 +36,13 @@
     transform: rotate(360deg);
   }
 }
-
+.TodoDiv{
+  width: 800px;
+  background-color: antiquewhite;
+  border:  10px solid grey;
+  border-radius: 25px;
+  margin: auto;
+}
 input{
   font-size: 30px;
   border-radius: 20px;

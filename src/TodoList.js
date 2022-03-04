@@ -7,7 +7,7 @@ const TodoList = () => {
             {
                 valuesAll.state.map((val, index) => {
                     return (
-                        <div className="m-3">
+                        <div className="TodoDiv">
                             <h3 >{val.todo}</h3>
                             <h4 >{val.status}</h4>
                             <button onClick={() => {
